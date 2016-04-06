@@ -13,16 +13,16 @@ class Solution : NSObject{
         var dictionary = [Int:Int]()
         for i in 0 ..< nums.count {
             let value = nums[i]
-//            if (dictionary.keys.contains(value)){
-//            if (dictionary[value] != nil){
-//                return [dictionary[value]! , i]
-//            }
-//            dictionary[target - value] = i;
-        
-            if (dictionary[target - value] != nil){
-                return [dictionary[target - value]! , i]
+            if (dictionary.keys.contains(value)){
+            if (dictionary[value] != nil){
+                return [dictionary[value]! , i]
             }
-            dictionary[value] = i;
+            dictionary[target - value] = i;
+        
+//            if (dictionary[target - value] != nil){
+//                return [dictionary[target - value]! , i]
+//            }
+//            dictionary[value] = i;
         }
         
         return [0,0]
