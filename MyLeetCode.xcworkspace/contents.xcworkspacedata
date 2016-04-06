@@ -7,4 +7,7 @@
    <FileRef
       location = "group:LeetCode2.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:LeetCode3.xcodeproj">
+   </FileRef>
 </Workspace>
