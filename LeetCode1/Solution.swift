@@ -13,7 +13,7 @@ class Solution : NSObject{
         var dictionary = [Int:Int]()
         for i in 0 ..< nums.count {
             let value = nums[i]
-            if (dictionary.keys.contains(value)){
+//            if (dictionary.keys.contains(value)){
             if (dictionary[value] != nil){
                 return [dictionary[value]! , i]
             }
