@@ -4,15 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LeetCode2.xcscheme</key>
+		<key>LeetCode5.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>D5C88AFE1CB3DE5C00703AF9</key>
+		<key>D5584BB91CBB43EE007E53F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

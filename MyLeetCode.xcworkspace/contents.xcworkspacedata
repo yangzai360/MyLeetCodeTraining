@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:LeetCode5/LeetCode5.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:LeetCode4/LeetCode4.xcodeproj">
    </FileRef>
    <FileRef
@@ -12,5 +15,8 @@
    </FileRef>
    <FileRef
       location = "group:LeetCode1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MyTestPlayground.playground">
    </FileRef>
 </Workspace>
