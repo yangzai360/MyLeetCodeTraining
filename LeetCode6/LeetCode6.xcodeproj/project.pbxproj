@@ -88,6 +88,7 @@
 		8FEFE8F61CBD42590013AFFE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Sean.Jie;
 				TargetAttributes = {
@@ -236,6 +237,7 @@
 				8FEFE9071CBD42590013AFFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
