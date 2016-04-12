@@ -25,7 +25,6 @@
 /* Begin PBXFileReference section */
 		D5584BBA1CBB43EE007E53F1 /* LeetCode5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode5; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5584BBD1CBB43EE007E53F1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		D5584BC41CBB7EFC007E53F1 /* MyTestPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyTestPlayground.playground; path = ../../MyTestPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				D5584BBD1CBB43EE007E53F1 /* main.swift */,
-				D5584BC41CBB7EFC007E53F1 /* MyTestPlayground.playground */,
 			);
 			path = LeetCode5;
 			sourceTree = "<group>";
