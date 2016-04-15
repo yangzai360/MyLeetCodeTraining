@@ -10,19 +10,8 @@ import Foundation
 
 class Solution {
     func reverse(x: Int) -> Int {
-        
-        
-        
         let neg = x < 0
-        
-        
         var vX : UInt = x < 0 ? UInt(-x) : UInt(x)
-//        var vX = x
-        
-//        if x < 0 {
-//          vX = -x
-//        }
-        
         var result :UInt = 0;
         
         while vX > 0 {
@@ -31,13 +20,15 @@ class Solution {
             vX /= 10
         }
         
-        if (neg && vX > UInt(Int.max) - 1) || (!neg && vX > UInt(Int.max)) {
+        if (neg && result > UInt(Int32.max) - 1) || (!neg && result > UInt(Int32.max)) {
             return 0;
         }
-        
+        if neg {
+            return -Int(result)
+        }
         return Int(result)
     }
 }
 
 let s = Solution()
-print(s.reverse(-9223372036854775808))
+print(s.reverse(1534236469))
