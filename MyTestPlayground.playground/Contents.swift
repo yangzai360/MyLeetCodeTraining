@@ -24,9 +24,9 @@ print(c.toInt() - c3.toInt())
 
 
 
-Int32.min
+Int64.min
 //-2147483648
-Int32.max
+Int64.max
 //2147483647
 
 print( Int32.min == -Int32.max - 1 )
