@@ -21,13 +21,23 @@ let c3:Character = "3"
 print(c.toInt() - c3.toInt())
 
 
-
-
-
-Int64.min
+Int32.min
 //-2147483648
-Int64.max
+Int32.max
 //2147483647
 
 print( Int32.min == -Int32.max - 1 )
 
+
+let s :NSString = "12345"
+
+print(s.substringWithRange(NSMakeRange(4, 0)))
+
+var str:String = "#ffffff"
+var unichar = (str as NSString).characterAtIndex(0)
+var unicharString = Character(UnicodeScalar(unichar))
+var containsHash = unicharString == "#"
+
+"\(unichar)" == "#"
+
+//Character(UnicodeScalar(unichar))
